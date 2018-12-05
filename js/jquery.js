@@ -4,13 +4,7 @@ $(function(){
     // animation to toggle menu nav
     $('#menu').click(function(){
         console.log("WORKING");
-        $('.menu-nav').animate({
-            height: "toggle"
-          }, {
-            duration: 1000,
-            specialEasing: {
-            height: 'easeInOutBack'
-            }});
+        $('.menu-nav').slideToggle(1000,"easeInOutCirc");
         
     });
 
