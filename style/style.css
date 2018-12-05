@@ -1,0 +1,662 @@
+/* Imported Fonts */
+@font-face {
+        font-family:"avenirRegular";
+        src: url("./font/AvenirNext/AvenirNextLTPro-Regular.otf");
+}
+@font-face {
+    font-family:"avenirMedium";
+    src: url("./font/AvenirNext/AvenirLTStd-Medium.otf");
+}
+@font-face{
+    font-family: "avenirDemibold";
+    src: url("./font/AvenirNext/AvenirNextLTPro-Demi.otf");
+}
+@font-face{
+    font-family: "avenirBold";
+    src: url("./font/AvenirNext/AvenirNextLTPro-Bold.otf");
+}
+
+
+
+body{
+    font-family: "avenirRegular";
+    cursor: url("/adminiverse/Assets/cursor.png"), auto;
+    color:#ffffff;
+    font-size: 14px;
+    position:relative;
+    height:100%;
+}
+
+nav{
+    background:linear-gradient(to left,#0d1336,#264a9d);
+    font-family: "avenirDemibold";
+}
+
+.nav{
+    padding:10px 10px 5px 10px;
+    /* height:100px; */
+}
+
+.nav-link{
+    color:#ffffff;
+}
+
+.Custom-btn{
+    font-size:14px;
+    font-family:"avenirDemibold";
+}
+.butn{
+    padding:10px 20px;
+    color:#5cddff;
+    border: 1px solid #5cddff;
+    border-radius: 20px;
+    width:200px;
+}
+.butn:hover{
+    background: white;
+    text-decoration:none;
+}
+.orderbutton{
+    display:none;
+    margin-top:-10px;
+    margin-right: 100px;
+    background:linear-gradient(to right,#ffb07e,#ff55b1);
+    height:40px;
+    padding-top:10px;
+    font-size:1rem;
+    border-radius: 0 0 5px 5px;
+}
+.orderbutton a:hover{
+    color:#ffffff;
+}
+.orderbutton a{
+    text-decoration: none!important;
+}
+.fullstop{
+    font-family: "avenirBold";
+    color:#5cddff;
+}
+hr{
+    width:10px;
+    background:#5cddff;
+    margin-top:0px !important;
+}
+.section-1{
+    background: linear-gradient(to bottom left,#0d1336,#264a9d);
+    
+}
+h1{
+    font-size: 24px;
+    font-family: "avenirBold";
+    
+}
+/* This are the lower headers */
+.header-2{
+    font-size: 24px;
+    font-family: "avenirRegular";
+}
+.body-text{
+    color:#5cddff;
+}
+.screen-div{
+    margin-bottom:120px;
+}
+.dot-svg{
+    width:50px;
+    height:100px;
+}
+.dot-svg2{
+    width:150px;
+    height:300px;
+    
+    
+}
+.dot-svg3{
+    width:90px;
+    height: 500px;
+    position:relative;
+    top:-20px;
+    right:-140px;
+
+}
+.screen{
+    max-width:80%;
+    height:auto;
+    margin-top:-15px;
+    
+    
+}
+.part1{
+    padding-top: 50px;
+    padding-bottom:100px;
+}
+
+.btn-row{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* .menu{
+    margin-right:-10px!important;
+} */
+.menu{
+    text-decoration: none!important;
+}
+.menu:hover{
+    color:#ffffff;
+}
+.part1-2{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.bg-header{
+    font-family: "avenirBold"!important;
+    font-size: 125px!important;
+    position:relative;
+    color:#1e387c;
+    overflow: hidden;
+}
+.woman-picture{
+    width:80%;
+    height:180px;
+}
+
+.section-2{
+    background: linear-gradient(to bottom left,#0d1336,#264a9d);
+}
+/* For the absolute header */
+.header-absolute{
+    position:absolute;
+    top:-23px;
+}
+.header-absolute + .header-2{
+    padding-top:10px;
+}
+.section-2 .body-text{
+    padding-bottom:50px;
+}
+#keyapp{
+    padding-bottom:30px;
+}
+.section-3{
+    background:#1d3779;
+    height:calc(50%-500px);
+}
+.section-4{
+    background: linear-gradient(253deg, #0d1336, #264a9d);
+    
+}
+.section-3 .row{
+    padding-left:30px;
+    padding-right:30px;
+    margin-left:0px!important;
+    margin-right:0px!important;
+}
+.cubes{
+    width:100px;
+    height:100px;
+    background-color: #1d3779;
+    opacity:0.5
+}
+
+.cubes + p{
+    font-family: "avenirBold";
+    font-size: 20px;
+    color:#ffffff;
+    position: absolute;
+    top: 67px;
+}
+.sales{
+    background:url(/adminiverse/Assets/sales.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    
+    /* flex-grow: 1; */
+   
+}
+.human-res{
+    background:url(/adminiverse/Assets/humanrelations.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    /* flex-grow: 1; */
+    
+}
+.projects{
+    background:url(/adminiverse/Assets/projects.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    /* flex-grow: 1; */
+    
+}
+.accounts{
+    background:url(/adminiverse/Assets/accounts.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    /* flex-grow: 1; */
+    
+}
+.payroll{
+    background:url(/adminiverse/Assets/payroll.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    /* flex-grow: 1;
+    width: 145px; */
+}
+.about{
+    padding-top:80px;
+}
+.rect{
+    padding-left:15px;
+    position:absolute;
+}
+li{
+    list-style: none;
+}
+.sub-menu{
+    color:#5cddff;
+    position:relative;
+}
+.sub-menu li{
+    margin-top: 28px;
+}
+.first-menu-item{
+    margin-top:-8px!important;
+}
+.pricing{
+    padding-top:150px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.price-title{
+    font-family: "avenirRegular";
+    font-size:1.5rem;
+}
+.prices{
+    font-family: "avenirRegular";
+    font-size: 2.125rem;
+}
+
+.starter{
+    background:linear-gradient(#ffb07e,#ff55b1);
+    /* width:100vw; */
+    border:1px solid #5cddff;
+    
+}
+.price-cover{
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+
+.starter button{
+    background:#1d3779;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;  
+}
+.price-cover h1{
+    padding-top:10px;
+    text-align: center;
+}
+.price-btns{
+    width:80%;
+    margin-bottom: 10px;
+}
+.bas-adv{
+    background: #13204f;
+    
+    border:1px solid #5cddff;
+}
+.bas-adv button{
+    background:#1e387c;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.get-started-title{
+    background:linear-gradient(to left,#0d1336,#264a9d);
+}
+.get-started-text{
+    padding:40px 10px 40px 5px;
+}
+.form{
+    background: #0d1336;
+}
+.input{
+    border:none;
+    border-bottom: 1px solid #5cddff;
+    background: none;
+    padding:20px 50px 5px 0px;
+    width:80%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;  
+}
+::placeholder{
+    color:#5cddff;
+    opacity:1;
+}
+:-ms-input-placeholder{
+    color:#5cddff;
+}
+::-ms-input-placeholder{
+    color:#5cddff;
+}
+.submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:#1e387c;
+    
+}
+.subject{
+    padding-bottom:100px;
+}
+.contact-links{
+    padding:20px 20px;
+}
+.contact-links-top{
+    padding-bottom: 20px;
+}
+.contact-links ul, a{
+    color:#5cddff;
+}
+li a{
+    text-decoration: underline!important;
+}
+li p{
+    padding-top:20px;
+}
+footer{
+    background: #13204f;
+   
+}
+/* footer .container{
+    padding-top:50px;
+} */
+.footer-logos{
+    position: relative;
+    transform: translateX(-25%);
+    left: 25%;  
+}
+ .codekago-logo{
+    padding-right:20px;
+    width:100px;
+    height:20px;
+} 
+ .paystack-logo{
+    padding-left:20px;
+    width:100px;
+    height:20px;
+} 
+.adminiverse-logo-footer{
+    position: relative;
+    transform: translateX(-25%);
+    left: 22%;
+    margin-top:70px;
+    width:100px;
+    height:50px;
+}
+.adminiverse-text-footer{
+    text-align:center;
+    font-size:10px;
+    padding-bottom: 200px;
+}
+.bg-logo{
+    background-image: url(/adminiverse/Assets/adminiverselogo-blue.svg);
+    background-position-x: 20vw;
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+    background-size: 300px 180px;
+}
+
+
+/* Styles specifically for small devices */
+@media only screen and (min-width: 600px){
+.submit{
+    position: relative;
+    transform: translateX(-50%);
+    left: 30%;  
+}
+}
+
+
+
+/* Destop view */
+
+@media only screen and (min-width: 768px){
+    #myScrollspy{
+        position: fixed;
+        z-index: 2;
+    }
+    .spy-item{
+        height: 5px;
+        width: 5px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .active{
+       background: #5cddff;
+    }
+    .nav{
+        padding:10px 10px 5px 10px;
+        height:60px;
+    }
+    .navbar-brand{
+        margin-left:100px;
+    } 
+    .orderbutton{
+        display: -webkit-inline-box;
+        margin-top:-10px;
+        margin-right: 100px;
+        background:linear-gradient(to right,#ffb07e,#ff55b1);
+        height:40px;
+        padding-top:10px;
+        font-size:1rem;
+        border-radius: 0 0 5px 5px;
+        text-decoration: none!important;
+        color:#ffffff;
+    }
+    .menu{
+        align-self: center;
+        margin-left:none!important;
+    }
+   
+    .part1{
+        padding-top:150px;
+    }
+    .part1-text{
+        padding-top: 80px;
+    }
+    .btn-row{
+        margin-top:200px;
+    }
+    .bg-header{
+        font-size: 225px!important;
+    }
+    .bg-rect{
+        fill: linear-gradient(#264a9d,#0d1336);
+    }
+    .hor-btn-container{
+        text-align: center;
+    }
+    .hor-btn{
+        border:1px solid #ffffff;
+        border-radius:20px;
+        padding:5.5px 7px;
+        margin-top:5%;
+        
+    }
+    .hor-bar{
+        border:0.8px solid #ffffff;
+        font-size:16px;
+    }
+    .wide-rect{
+        position: relative;
+        top:-130px;
+        transform: translateX(-50%);
+        left: 50%;  
+        
+    }
+    
+    .woman-picture{
+        width:50%;
+        height:300px;
+        
+    }
+    .dot-svg{
+        width:100px;
+        height:250px;
+        margin-top:-50px;
+        margin-left:-30px;
+    }
+    .dot-svg2{
+        width:300px;
+        height:400px;
+        margin-left:-20px;
+    }
+    .btn-row{
+        margin-top:-397px;
+    }
+    #keyapp h1{
+       text-align: center;
+    }
+    /* .cubes{
+        width:200px;
+        height:200px;
+    } */
+    .section-3{
+        height:calc(100%-100px)!important;
+    }
+    .rect{
+        top:150px;
+    }
+    .first-menu-item{
+        margin-top:140px!important;
+    }
+    .chart{
+        margin-top:300px;
+    }
+    .chart-svg{
+        width:50%;
+    }
+    .sub-price{
+        text-align: center;
+        background: #13204f;
+        border: 1px solid #5cddff;
+        padding:30px;
+        font-size:1rem;
+        font-family:"avenirMedium";
+        
+    }
+    .get-started-title{
+        background: none;
+    }
+   
+    .bg-logo{
+        background-image: url(/adminiverse/Assets/adminiverselogo-blue.svg);
+        background-position-x: 70vw;
+        background-position-y: 20vh;
+        background-repeat: no-repeat;
+        background-size: 500px 280px;
+    }
+    /* fonts */
+    body{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 48px;
+        font-family: "avenirBold";
+        
+    }
+    /* This are the lower headers */
+    .header-2{
+        margin-top:10px;
+        font-size: 48px;
+        font-family: "avenirRegular";
+    }
+    .see-more{
+        padding-top:10px;
+        font-size:6px;
+        font-family:"avenirDemibold";
+        letter-spacing:3.2px;
+    }
+    .codekago-logo{
+        width:150px;
+        height:30px;
+    }
+    .paystack-logo{
+        width:150px;
+        height: 30px;
+    }
+    .adminiverse-logo-footer{
+        width:150px;
+        height:60px;
+        margin-top:0px;
+        left:6%;
+    }
+    .adminiverse-text-footer{
+        text-align: left;
+        font-size:15px;
+    }
+    .social-links{
+        padding-top:50px;
+        padding-bottom: 50px;
+        padding-left:60px; 
+    }
+    .footer-logos{
+        position: relative;
+        transform: translateX(-25%);
+        left: 7%;  
+    }
+    .partners{
+        margin-bottom:40px;
+    }
+    .menu-nav{
+        background:#13204f;
+        color:#ffffff;
+        /* display:none; */
+    }
+    .menu-nav a{
+        text-decoration: none!important;
+    }
+    .vl {
+        border-left: 2px solid #1d3779;
+        height: 100vh;
+        position:fixed;
+    }
+    .spacer{
+        background:linear-gradient(to left,#0d1336,#264a9d);
+    }
+    .section-1 {
+        /* The image used */
+        background: linear-gradient(to bottom left,#0d1336,#264a9d);
+    
+        /* Full height */
+        height: 100%;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+       
+    }
+
+
+
+    .paralax-image {
+        overflow: hidden;
+        height: 200px;
+        position: relative;
+      }
+      
+      .paralax-image img {
+        position: absolute;
+        height: 100vh;
+        min-width:100%;
+      }
+}
