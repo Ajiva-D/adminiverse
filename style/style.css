@@ -302,7 +302,7 @@ background-color: rgba(29, 55, 121, 0.6)!important;
     width:100%;
     position:relative;
     top:265px;
-    left:95px
+    left:95px;
 }
 .font-style{
     font-size: 30px;
@@ -736,10 +736,14 @@ rect{
     padding:100px 20px 30px 10px;
 }
 .dot-svg-keyapp{
-    width:100%;
+    width:40%;
     position:relative;
-    top:265px;
-    left:95px
+    top:150px;
+    left:50px;
+}
+.section-3{
+    height:100%!important;
+    
 }
 
 }
