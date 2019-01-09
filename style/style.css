@@ -298,12 +298,7 @@ background-color: rgba(29, 55, 121, 0.6)!important;
     /* flex-grow: 1;
     width: 145px; */
 }
-.dot-svg-keyapp{
-    width:100%;
-    position:relative;
-    top:265px;
-    left:95px;
-}
+
 .font-style{
     font-size: 30px;
     font-weight: bolder;
@@ -783,7 +778,6 @@ h1{
     display: flex;
 }
 svg{
-    width :600px;
     height:400px;
 }
 rect{
@@ -865,6 +859,13 @@ rect{
     
     font-size:40px!important;
 }
+.dot-svg-keyapp{
+    width:50%;
+    position:relative;
+    top:265px;
+    left:30%;
+}
+
 
 }
 
@@ -946,6 +947,7 @@ h1{
     top:-126px;
     transform: translateX(-50%);
     left: 50%;
+    width:600px;
 
 }
 
@@ -1177,9 +1179,16 @@ h1{
 .con{
     max-width:800px!important;
 }
+
 }
 @media only screen and (min-width:1024px){
 .price-btns{
     width:80%;
+}
+.dot-svg-keyapp{
+    width:100%;
+    position:relative;
+    top:265px;
+    left:70%;
 }
 }
