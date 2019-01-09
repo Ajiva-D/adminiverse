@@ -734,14 +734,14 @@ rect{
 }
 .dot-svg-keyapp{
     width:40%;
-    position:relative;
-    top:150px;
-    left:50px;
+    position:absolute;
+    top:1557px;
+    left:170px;
 }
-.section-3{
+/* .section-3{
     height:100%!important;
     
-}
+} */
 
 }
 
