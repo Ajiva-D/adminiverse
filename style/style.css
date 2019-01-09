@@ -340,12 +340,7 @@ li{
     font-size: 2.125rem!important;
 }
 
-.starter{
-    background:linear-gradient(#ffb07e,#ff55b1);
-    /* width:100vw; */
-    border:1px solid #5cddff;
 
-}
 .price-cover{
     margin-left:10px;
     margin-right:10px;
@@ -356,12 +351,7 @@ li{
     height: 471px;
 }
 
-.starter button{
-    background:#1d3779;
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
-}
+
 .price-cover h1{
     padding-top:10px;
     text-align: center;
@@ -370,12 +360,22 @@ li{
     width:80%;
     margin-bottom: 10px;
 }
-.bas-adv{
+.price-plans{
     background: #13204f;
     border:1px solid #5cddff;
 }
-.bas-adv button{
+.price-plans:hover{
+    background:linear-gradient(#ffb07e,#ff55b1);
+}
+
+.price-plans button{
     background:#1e387c;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.price-plans button:hover{
+    background:#070e2a;
     position: relative;
     transform: translateX(-50%);
     left: 50%;
