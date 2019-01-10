@@ -380,6 +380,9 @@ li{
     transform: translateX(-50%);
     left: 50%;
 }
+.plans-active{
+    background:linear-gradient(#ffb07e,#ff55b1);
+}
 .layout-s{
     display: flex;
     position: relative;
