@@ -12,6 +12,7 @@ $(function () {
     $('#menu').click(function () {
         if ($(window).width() >= 600) {
             $('.menu-nav').slideToggle(1000, "easeInOutCirc");
+            // $('.menu-nav').css("margin-top", "58px");
         }
         else
             $('.mobile-menu-nav').slideToggle(1000, "easeInOutCirc");
@@ -24,7 +25,40 @@ $(function () {
             scrollTop: $("#below").offset().top
         }, 2000);
     });
+    
 
+    // nav functions
+    $("#home-btn").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#home").offset().top
+        }, 2000);
+    });
+
+    $("#features-btn").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#features").offset().top
+        }, 2000);
+    });
+
+    $("#about-btn").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top
+        }, 2000);
+    });
+
+    $("#pricing-btn").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#pricing").offset().top
+        }, 2000);
+    });
+
+    $("#contact-btn").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 2000);
+    });
+
+   
 
     // $(window).scroll(function () {
     //     var hT = $('#about').offset().top,

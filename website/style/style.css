@@ -20,7 +20,7 @@
 
 body{
     font-family: "avenirRegular";
-    cursor: url("/adminiverse/Assets/cursor.png"), auto;
+    cursor: url("/adminiverse/website/Assets/cursor.png"), auto;
     color:#ffffff;
     font-size: 14px;
     position:relative;
@@ -30,11 +30,13 @@ body{
 nav{
     background:linear-gradient(to left,#0d1336,#264a9d);
     font-family: "avenirDemibold";
+    
 }
 
 .nav{
     padding:10px 10px 5px 10px;
     /* height:100px; */
+    
 }
 
 .nav-link{
@@ -480,7 +482,7 @@ padding-top:50px;
     color: #5cddff;
 }
 .bg-logo{
-    background-image: url(/adminiverse/Assets/adminiverselogo-blue.svg);
+    background-image: url('./adminiverse/website/Assets/adminiverselogo-blue.svg');
     background-position-x: 20vw;
     background-position-y: 100px;
     background-repeat: no-repeat;
@@ -509,7 +511,11 @@ padding-top:50px;
     position: relative;
 }
 .menu-nav{
-    display: none;
+    /* display: none; */
+    position:fixed;
+    z-index:111;
+    width:100%;
+    margin-top: 58px;
 }
 .mobile-menu-nav{
     display:none;
@@ -649,7 +655,7 @@ rect{
 }
 .sm-sales{
     /* background:url("/adminiverse/Assets/sales.jpg"); */
-    background: url("../Assets/sales@2x.jpg");
+    background: url(../Assets/sales@2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -1012,7 +1018,7 @@ h1{
 }
 
 .bg-logo{
-    background-image: url(/adminiverse/Assets/adminiverselogo-blue.svg);
+    background-image: url(../Assets/adminiverselogo-blue.svg);
     background-position-x: 70vw;
     background-position-y: 20vh;
     background-repeat: no-repeat;
@@ -1107,7 +1113,7 @@ h1{
 }
 .sm-sales{
     /* background:url("/adminiverse/Assets/sales.jpg"); */
-    background: url("../Assets/sales@2x.jpg");
+    background: url(../Assets/sales@2x.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */

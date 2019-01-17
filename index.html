@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adminiverse</title>
-
+    <link rel="icon" href="./website/Assets/favicon adminiverse.ico" type="image/ico" sizes="16x16">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="fixed-top">
             <ul class="nav" style="justify-content: space-between;">
 
                 <a class="navbar-brand Custom-btn" href="#">
@@ -27,7 +27,7 @@
 
                 <li class="nav-item Custom-btn" id="menu">
                     <div>
-                        <a class="nav-link menu" href="#">Menu</a>
+                        <a class="nav-link menu">Menu</a>
                         <hr>
                     </div>
                 </li>
@@ -39,21 +39,22 @@
         </nav>
         <ul class="nav justify-content-center menu-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link"  id="home-btn">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" id="features-btn">Features</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" id="about-btn">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
+                <a class="nav-link" id="pricing-btn">Pricing</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" id="contact-btn">Contact</a>
             </li>
         </ul>
+        <!-- Mobile nav bar -->
         <ul class="nav mobile-menu-nav">
             <li class="nav-item orderbutton2 Custom-btn">
                 <a class="nav-link" href="#">ORDER NOW</a>
