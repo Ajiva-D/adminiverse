@@ -20,7 +20,7 @@
 
 body{
     font-family: "avenirRegular";
-    cursor: url("/adminiverse/website/Assets/cursor.png"), auto;
+    cursor: url(/website/Assets/cursor.png), auto;
     color:#ffffff;
     font-size: 14px;
     position:relative;
@@ -42,7 +42,10 @@ nav{
 .nav-link{
     color:#ffffff;
 }
-
+.logo{
+    width:135px;
+    height:40px;
+}
 .Custom-btn{
     font-size:14px;
     font-family:"avenirDemibold";
@@ -53,10 +56,14 @@ nav{
     border: 1px solid #5cddff;
     border-radius: 20px;
     width:200px;
+    font-size:15px;
+    font-family:"avenirDemibold";
 }
 .butn:hover{
-    background: white;
+    background:linear-gradient(to right,#ffb07e,#ff55b1);
+    color:white;
     text-decoration:none;
+    
 }
 .orderbutton{
     display:none;
@@ -397,10 +404,11 @@ li{
     background:linear-gradient(to left,#0d1336,#264a9d);
 }
 .get-started-text{
-    padding:40px 10px 40px 40px;
+    padding:100px 10px 40px 40px;
 }
 .form{
     background: #0d1336;
+
 }
 .input{
     border:none;
@@ -411,10 +419,12 @@ li{
     position: relative;
     transform: translateX(-50%);
     left: 50%;  
+    color:#5cddff;
+    outline:none;
 }
 ::placeholder{
     color:#5cddff;
-    opacity:1;
+    opacity:0.2;
 }
 :-ms-input-placeholder{
     color:#5cddff;
@@ -442,8 +452,14 @@ li{
 li a{
     text-decoration: underline!important;
 }
+li a:hover{
+    color:#ffffff;
+}
 li p{
     padding-top:20px;
+}
+li p:hover{
+    color:#ffffff;
 }
 footer{
     background: #13204f;

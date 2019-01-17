@@ -58,7 +58,19 @@ $(function () {
         }, 2000);
     });
 
-   
+//    for Explore features button
+    $("#explore").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#features").offset().top
+        }, 2000);
+    });
+
+    // for order button
+    $("#order").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#pricing").offset().top
+        }, 2000);
+    });
 
     // $(window).scroll(function () {
     //     var hT = $('#about').offset().top,
