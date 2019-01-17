@@ -20,7 +20,7 @@
 
       .cls-5 {
         font-size: 14px;
-        font-family: AvenirNext-Bold, Avenir Next;
+        font-family: "avenirBold";
         font-weight: 700;
         letter-spacing: -0.05em;
       }

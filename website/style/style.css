@@ -174,6 +174,8 @@ margin-right:-10px!important;
     font-size: 125px!important;
     position:relative;
     color:#1e387c;
+    white-space: nowrap;
+    margin-left: -30px;
     overflow: hidden;
 }
 .woman-picture{
@@ -811,7 +813,7 @@ rect{
     top:230px;
 }
 .bg-header{
-    font-size: 240px!important;
+    font-size: 250px!important;
 }
 .automated{
     margin-left: 192px;
@@ -993,7 +995,7 @@ h1{
     margin-top:300px;
 }
 .chart-svg{
-    width:70%;
+    width:80%;
 }
 .sub-price{
     text-align: center;
