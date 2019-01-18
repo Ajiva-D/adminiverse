@@ -318,6 +318,10 @@ background-color: rgba(29, 55, 121, 0.6)!important;
 .about{
     padding-top:80px;
 }
+#about-text{
+    padding-top:70px;
+}
+
 .menu-active{
     color:#ffffff;
 }
@@ -665,9 +669,7 @@ padding-top:50px;
         left: 50%;
     }
 
-    #about-text{
-        padding-top:70px;
-    }
+   
     /* .appLayout{
     grid-template-columns: 1fr 1fr;
     margin: 0;
