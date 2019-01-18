@@ -1,7 +1,7 @@
 $(function () {
     // hide the meun nav by default
     $('.menu-nav').hide();
-    $("#about").hide();
+    $("#about-text").hide();
     $("#about-menu").hide();
     $(".chart-svg").hide();
     $(".starter").hide();
@@ -28,45 +28,45 @@ $(function () {
     
 
     // nav functions
-    $("#home-btn").click(function () {
+    $(".home-btn").click(function () {
         $('html, body').animate({
             scrollTop: $("#home").offset().top
         }, 2000);
     });
 
-    $("#features-btn").click(function () {
+    $(".features-btn").click(function () {
         $('html, body').animate({
             scrollTop: $("#features").offset().top
         }, 2000);
     });
 
-    $("#about-btn").click(function () {
+    $(".about-btn").click(function () {
         $('html, body').animate({
             scrollTop: $("#about").offset().top
         }, 2000);
     });
 
-    $("#pricing-btn").click(function () {
+    $(".pricing-btn").click(function () {
         $('html, body').animate({
             scrollTop: $("#pricing").offset().top
         }, 2000);
     });
 
-    $("#contact-btn").click(function () {
+    $(".contact-btn").click(function () {
         $('html, body').animate({
             scrollTop: $("#contact").offset().top
         }, 2000);
     });
 
 //    for Explore features button
-    $("#explore").click(function () {
+    $(".explore").click(function () {
         $('html, body').animate({
             scrollTop: $("#features").offset().top
         }, 2000);
     });
 
     // for order button
-    $("#order").click(function () {
+    $(".order").click(function () {
         $('html, body').animate({
             scrollTop: $("#pricing").offset().top
         }, 2000);
@@ -108,11 +108,11 @@ $(function () {
     // });
     $(window).scroll(function () {
         var position = window.pageYOffset;
-        $('#about').each(function () {
+        $('#about-text').each(function () {
             var target = $(this).offset().top;
             if ((position >= target)) {
-                $("#about").slideDown(1000);
-               
+                $("#about-text").slideDown(3000);
+               console.log("Hello fucking you")
             }
             
         });
@@ -177,12 +177,12 @@ $(function () {
         var position = window.pageYOffset;
         $('#starter').each(function () {
             var target = $(this).offset().top;
-            if ((position >= target) && ($(window).width() <= 320)) {
+            if ((position >= target) && ($(window).width() <= 767)) {
                 $("#starter").addClass('plans-active');
                 $("#basic").removeClass('plans-active');
                 $("#advanced").removeClass('plans-active');
             }
-            else if($('#starter').hasClass("plans-active") && ($(window).width() <= 320)){
+            else if($('#starter').hasClass("plans-active") && ($(window).width() <= 767)){
                 $("#starter").removeClass('plans-active');
             }
         });
@@ -193,7 +193,7 @@ $(function () {
         var position = window.pageYOffset;
         $('#basic').each(function () {
             var target = $(this).offset().top;
-            if ((position >= target) && ($(window).width() <= 320)) {
+            if ((position >= target) && ($(window).width() <= 767)) {
                 $("#basic").addClass('plans-active');
                 $("#starter").removeClass('plans-active');
                 $("#advanced").removeClass('plans-active');
@@ -206,7 +206,7 @@ $(function () {
         var position = window.pageYOffset;
         $('#advanced').each(function () {
             var target = $(this).offset().top;
-            if ((position >= target) && ($(window).width() <= 320)) {
+            if ((position >= target) && ($(window).width() <= 767)) {
                 $("#advanced").addClass('plans-active');
                 $("#basic").removeClass('plans-active');
                 $("#starter").removeClass('plans-active');
