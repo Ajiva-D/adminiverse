@@ -142,32 +142,32 @@ $(function () {
 
     // Content for the about menu
 
-    $("#fast").click(function () {
-        $("#about-content").html("<p>One of the interesting things is that quite a lot of my background is betrayed by the various options that's portrayed to me.</p><p>I wonder how many readers will have thought of the Times Literary Supplement, for example. I'm also more likely to think of sme as the term relating to organisations, because that's the favoured form in Europe, whereas I believ that the US tends to SMB.</p><p>I'm sure your experiences will all be different-which rather makes my point for me.</p>");
+    $("#automated").click(function () {
+        $("#about-content").html("<p>The purpose of every business is to grow and make a profit. With growth, comes more complex administrative duties (recruitment, project management, sales, financial reports, payroll processing). Adminiverse automates these processes, saving you time and improving accuracy for sustainable business growth. </p>");
         $(".sub-menu").children().removeClass('menu-active');
         $(this).addClass('menu-active');
     });
 
-    $("#reliable").click(function () {
-        $("#about-content").html("<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>");
+    $("#collaborative").click(function () {
+        $("#about-content").html("<p>With growth comes multiple tasks, a larger team and tight deadlines. With Adminiverse, businesses can manage and coordinate tasks, personnel and workflows on a single platform, putting them above the challenges of missed deadlines, uncompleted tasks, or underperforming personnel. The platform improves project management processes and team relationships.</p>");
         $(".sub-menu").children().removeClass('menu-active');
         $(this).addClass('menu-active');
     });
 
-    $("#intuitive").click(function () {
-        $("#about-content").html("<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>");
+    $("#efficient").click(function () {
+        $("#about-content").html("<p>Adminiverse incorporates a number of tools that enable business owners to achieve maximum productivity, with minimum physical efforts. These tools allow for improved turnaround time, giving room for more work to be done in a very little time. </p>");
+        $(".sub-menu").children().removeClass('menu-active');
+        $(this).addClass('menu-active');
+    });
+
+    $("#simple").click(function () {
+        $("#about-content").html("<p>Adminiverse eliminates the complexities and ambiguities that often come with administrative processes. Here, these processes have been simplified to allow for quick implementation and execution of sensitive tasks. The tools are easy to use and customizable to suit your unique needs.</p>");
         $(".sub-menu").children().removeClass('menu-active');
         $(this).addClass('menu-active');
     });
 
     $("#secure").click(function () {
-        $("#about-content").html("<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,</p><p>Hello to the whole world, lets just let them know that's whats up with me and you and I have no idea what im typing just feel it should make sense. If it doesn't just bear with me, can you do that?</p>");
-        $(".sub-menu").children().removeClass('menu-active');
-        $(this).addClass('menu-active');
-    });
-
-    $("#team").click(function () {
-        $("#about-content").html("<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>");
+        $("#about-content").html("<p>Data security is not a concern when you rely on Adminiverse for your business processes. There is a premium placed on the platform’s security architecture. There is no need for extra security measures to protect your valued information.</p>");
         $(".sub-menu").children().removeClass('menu-active');
         $(this).addClass('menu-active');
     });
