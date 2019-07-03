@@ -26,8 +26,20 @@ body{
     position:relative;
     height:100%;
     background: linear-gradient(to bottom left,#0d1336,#264a9d);
+    scrollbar-width: none;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+  }
+  
+ html::-moz-scrollbar {
+    display: none;
+  }
+  
+  ::-ms-overflow-style {
+    display: none;
+  }
 nav{
     background:linear-gradient(to left,#0d1336,#264a9d);
     font-family: "avenirDemibold";
@@ -215,6 +227,10 @@ margin-right:-10px!important;
     height:calc(50%-500px);
     padding-bottom: 50px;
 }
+#features{
+    padding:100px 0;
+    background: transparent;
+}
 .section-4{
     background: linear-gradient(253deg, #0d1336, #264a9d);
 }
@@ -239,77 +255,7 @@ background-color: rgba(29, 55, 121, 0.6)!important;
 .cubes:hover{
     opacity:1;
 }
-.sales{
-/* background:url("/adminiverse/Assets/sales.jpg"); */
-    background: url(../Assets/sales@2x.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    height: 300px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding-left: 10px;
 
-
-}
-.human-res{
-    background:url(../Assets/humanrelations.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    position:relative;
-    height: 300px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding-left: 10px;
-}
-.projects{
-    background:url(../Assets/projects.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    position:relative;
-    height: 300px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding-left: 10px;
-
-    /* flex-grow: 1; */
-
-}
-
-.accounts{
-    background:url(../Assets/accounts.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    position:relative;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    height: 300px;
-    padding-left: 10px;
-
-    /* flex-grow: 1; */
-
-}
-.payroll{
-    background:url(../Assets/payroll.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    position:relative;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    height: 300px;
-    padding-left: 10px;
-    /* flex-grow: 1;
-    width: 145px; */
-}
 
 .font-style{
     font-size: 30px;
@@ -319,7 +265,7 @@ background-color: rgba(29, 55, 121, 0.6)!important;
     padding-top:80px;
 }
 #about-text{
-    padding-top:70px;
+    padding-top:120px;
 }
 
 .menu-active{
@@ -366,7 +312,9 @@ li{
 }
 .parallax{
     background: linear-gradient(to bottom left,#0d1336,#264a9d);
-    height: 471px;
+    /* background: white; */
+    /* height: 300px; */
+    
 }
 
 
@@ -411,7 +359,7 @@ li{
     background:linear-gradient(to left,#0d1336,#264a9d);
 }
 .get-started-text{
-    padding:100px 10px 40px 40px;
+    padding:150px 10px 40px 40px;
 }
 .form{
     background: #0d1336;
@@ -520,8 +468,8 @@ padding-top:50px;
     font-family: "avenirBold";
 }
 .custom-container{
-    padding-right:9%;
-    padding-left: 9%;
+    padding-right:10%;
+    padding-left: 10%;
 
 }
 .smart{
@@ -682,7 +630,9 @@ padding-top:50px;
 
     .custom-grid{
         display:grid;
+        display: -ms-grid;
         grid-template-columns: 142px 142px;
+        -ms-grid-columns: 142px 142px;
         grid-column-gap: 0;
         margin:0;
         
@@ -881,7 +831,7 @@ padding-top:50px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 700px;
+        height: 100%;
     }
     .automated-test{
         width: 297px;
@@ -1147,7 +1097,9 @@ h1{
 }
 .custom-grid{
     display:grid;
+    display: -ms-grid;
     grid-template-columns: 250px 250px 250px;
+    -ms-grid-columns: 250px 250px 250px;
 }
 .sm-sales{
     /* background:url("/adminiverse/Assets/sales.jpg"); */
@@ -1241,3 +1193,39 @@ h1{
     left:70%;
 }
 }
+@media only screen and (min-width:2560px){
+   .screen{
+       max-width:150%;
+       
+   }
+   .custom-container{
+        padding-right:25%;
+        padding-left: 25%;
+    }
+    .bg-header{
+        font-size: 450px!important;
+    }
+    #see{
+        margin-top:30%;
+    }
+    #features{
+        padding:300px 0;
+        background: transparent;
+    }
+    .layout-s{
+        bottom: 397px;
+    }
+    .wide-rect{
+        top:-200px;
+    }
+    .part1-text {
+        padding-top: 25%!important;
+    }
+    .dot-svg{
+        width:50%;
+        height:auto;
+        margin-left: -35px;
+        margin-top: 13px;
+    }
+}
+

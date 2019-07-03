@@ -12,7 +12,7 @@ $(function () {
     $('#menu').click(function () {
         if ($(window).width() >= 600) {
             $('.menu-nav').slideToggle(1000, "easeInOutCirc");
-            // $('.menu-nav').css("margin-top", "58px");
+            
         }
         else
             $('.mobile-menu-nav').slideToggle(1000, "easeInOutCirc");
@@ -20,7 +20,7 @@ $(function () {
     });
 
     // animate the see more button
-    $("#see").click(function () {
+    $("#scroll-more").click(function () {
         $('html, body').animate({
             scrollTop: $("#below").offset().top
         }, 2000);
@@ -72,47 +72,14 @@ $(function () {
         }, 2000);
     });
 
-    // $(window).scroll(function () {
-    //     var hT = $('#about').offset().top,
-    //         hH = $('#about').outerHeight(),
-    //         wH = $(window).height(),
-    //         wS = $(this).scrollTop();
-    //     console.log((hT - wH), wS);
-    //     if (wS > (hT + hH - wH)) {
-    //         $("#about").slideDown(1000);
-
-    //     }
-    // });
-    
-    // $(window).scroll(function () {
-    //     var hT = $('#about-menu').offset().top,
-    //         hH = $('#about-menu').outerHeight(),
-    //         wH = $(window).height(),
-    //         wS = $(this).scrollTop();
-    //     console.log((hT - wH), wS);
-    //     if (wS > (hT + hH - wH)) {
-    //         $("#about-menu").fadeIn(4500);
-
-    //     }
-    // });
-    // $(window).scroll(function () {
-    //     var hT = $('.chart-svg').offset().top,
-    //         hH = $('.chart-svg').outerHeight(),
-    //         wH = $(window).height(),
-    //         wS = $(this).scrollTop();
-    //     console.log((hT - wH), wS);
-    //     if (wS > (hT + hH - wH)) {
-    //         $(".chart-svg").slideDown(5000, "easeInOutBounce");
-
-    //     }
-    // });
+     
     $(window).scroll(function () {
         var position = window.pageYOffset;
         $('#about-text').each(function () {
             var target = $(this).offset().top;
             if ((position >= target)) {
                 $("#about-text").slideDown(3000);
-               console.log("Hello fucking you")
+              
             }
             
         });
